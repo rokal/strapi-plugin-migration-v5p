@@ -81,7 +81,7 @@ const service = ({ strapi }: { strapi: Core.Strapi }) => ({
   },
 
   getPathFolder() {
-    const config = strapi.config.get<Config>('plugin.migrations5p');
+    const config = strapi.config.get<Config>('plugin::migrations5p');
     return path.resolve(process.cwd(), config.migrationFolderPath);
   },
 
