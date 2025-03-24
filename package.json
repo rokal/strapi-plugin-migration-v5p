@@ -1,6 +1,6 @@
 {
   "name": "strapi-plugin-migration-v5p",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Migrations plugin for Strapi v5, based on strapi-plugin-migrations",
   "keywords": [
     "strapi",
